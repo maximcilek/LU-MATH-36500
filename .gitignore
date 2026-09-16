@@ -1,10 +1,4 @@
 __pycache__/
 *.pyc
-data/generated/*.nc
-data/generated/*.npz
-tables/*.csv
-tables/*.json
-figures/**/*.png
-reports/*.pdf
 !archive/**
 repo_snapshot.zip

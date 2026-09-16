@@ -1,0 +1,5 @@
+level,coverage,n,pred_mean,obs_mean,passes,decision_rule,disease
+0.9,0.9568345323741008,139,1.9311294964028778,2.1007194244604315,True,coverage >= 0.80 of the 90% predictive interval,Ebola
+0.9,0.9651162790697675,86,2.167420058139535,2.186046511627907,True,coverage >= 0.80 of the 90% predictive interval,Measles
+0.9,1.0,14,135.883,108.5,True,coverage >= 0.80 of the 90% predictive interval,Influenza
+0.9,1.0,492,0.15415548780487806,0.1524390243902439,True,coverage >= 0.80 of the 90% predictive interval,Norovirus
