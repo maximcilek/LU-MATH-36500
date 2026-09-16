@@ -1,0 +1,3 @@
+t20_trace_e_R0
+
+Chain trace for e_R0. Overlapping fuzzy caterpillars with no trend is what a converged parameter looks like.

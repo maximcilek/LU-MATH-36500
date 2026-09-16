@@ -1,0 +1,8 @@
+noro_05_duration
+================
+
+WHAT IT SHOWS
+Length of illness for affected children.
+
+KEY TAKEAWAY
+Most recovered within two days: a mild, short, self-limiting infection.

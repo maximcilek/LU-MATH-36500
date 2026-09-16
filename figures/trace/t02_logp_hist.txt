@@ -1,0 +1,3 @@
+t02_logp_hist
+
+Log-posterior distribution per chain. Overlapping histograms confirm the chains are exploring the same region of parameter space.

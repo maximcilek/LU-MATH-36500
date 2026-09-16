@@ -1,0 +1,3 @@
+t14_ess
+
+Effective sample size per parameter. Above 400 is the working threshold for a four-chain run.

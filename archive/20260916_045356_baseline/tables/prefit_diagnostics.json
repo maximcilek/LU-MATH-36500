@@ -1,0 +1,96 @@
+{
+  "ebola": {
+    "dispersion": {
+      "n": 139,
+      "mean": 2.1007194244604315,
+      "var": 8.526013971431553,
+      "var_mean_ratio": 4.0586162398252945,
+      "skewness": 1.954420472480641,
+      "zero_frac": 0.41007194244604317,
+      "overdispersion_z": 25.255242388409687,
+      "overdispersion_p": 0.0,
+      "verdict": "NegBinomial required"
+    },
+    "serial": {
+      "acf_lag1": -0.03741365669624381,
+      "acf_lag2": -0.038879561947865855,
+      "acf_lag3": -0.04045435987275141,
+      "ljung_box_Q": 0.6508938664405016,
+      "ljung_box_df": 3,
+      "ljung_box_p": 0.8846887816493775,
+      "grw_warranted": false,
+      "decision_rule": "|lag-1 ACF| > 0.20 OR Ljung-Box p < 0.05"
+    },
+    "const_fit_R0": 1.9206692077561744,
+    "const_fit_log_intercept": -0.9091049869549854,
+    "grid_interp_error": {
+      "n_test": 20,
+      "max_rel_error": 0.018978928656569624,
+      "mean_rel_error": 0.006760600953531292,
+      "p95_rel_error": 0.018894342354091084
+    }
+  },
+  "measles": {
+    "dispersion": {
+      "n": 86,
+      "mean": 2.186046511627907,
+      "var": 23.25909712722298,
+      "var_mean_ratio": 10.639799749687109,
+      "skewness": 3.308952835741952,
+      "zero_frac": 0.5930232558139535,
+      "overdispersion_z": 62.40111711992879,
+      "overdispersion_p": 0.0,
+      "verdict": "NegBinomial required"
+    },
+    "serial": {
+      "acf_lag1": -0.004741154430657777,
+      "acf_lag2": -0.011643504872377322,
+      "acf_lag3": 0.11839461634864218,
+      "ljung_box_Q": 1.2923218996736852,
+      "ljung_box_df": 3,
+      "ljung_box_p": 0.7309571199646032,
+      "grw_warranted": false,
+      "decision_rule": "|lag-1 ACF| > 0.20 OR Ljung-Box p < 0.05"
+    },
+    "const_fit_R0": 8.00790231757786,
+    "const_fit_log_intercept": 0.0042465659249573936,
+    "attack_rate": 1.0,
+    "final_size_degenerate": true
+  },
+  "influenza": {
+    "dispersion": {
+      "n": 14,
+      "mean": 108.5,
+      "var": 11245.038461538461,
+      "var_mean_ratio": 103.64090747961716,
+      "skewness": 0.4478027454171393,
+      "zero_frac": 0.0,
+      "overdispersion_z": 251.97602504419066,
+      "overdispersion_p": 0.0,
+      "verdict": "NegBinomial required"
+    },
+    "serial": {
+      "acf_lag1": 0.7960668521996713,
+      "acf_lag2": 0.3350965545784409,
+      "acf_lag3": -0.18743405849588873,
+      "ljung_box_Q": 13.731005045104204,
+      "ljung_box_df": 3,
+      "ljung_box_p": 0.0032951349640373273,
+      "grw_warranted": true,
+      "decision_rule": "|lag-1 ACF| > 0.20 OR Ljung-Box p < 0.05"
+    },
+    "const_fit_R0": 6.349380151888295,
+    "t_seed_best": 5.0,
+    "R0_from_final_size": 1.656850166625956,
+    "reported_attack_rate": 0.6710353866317169,
+    "implied_attack_rate": 0.9982324436234872,
+    "identification_conflict": true
+  },
+  "norovirus": {
+    "attack_rate": 0.1524390243902439,
+    "chi2": 62.701047690104474,
+    "chi2_p": 3.920467697032788e-08,
+    "R0_from_final_size": 1.0849747615313692,
+    "n_classes": 15
+  }
+}

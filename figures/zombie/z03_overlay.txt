@@ -1,0 +1,3 @@
+z03_overlay
+
+Both routes on one axis. Route A is a spike of your own choosing; Route B is a broad range shaped by data. They answer different questions.

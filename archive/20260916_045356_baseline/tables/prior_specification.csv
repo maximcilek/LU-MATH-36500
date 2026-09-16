@@ -1,0 +1,33 @@
+disease,parameter,value,label,source
+ebola,structure,seird_incidence,STRUCTURAL,LITERATURE: Legrand J et al. (2007) Epidemics 21(3):183-197 -- SEIHFR structure for Ebola with isolation; we use the reduced SEIRD form with isolation folded into the removal rate. Observable is daily onset incidence (Khan AS et al. (1999) J Infect Dis 179:S76-86).
+ebola,sigma,0.1111 /day,LITERATURE,LITERATURE: WHO Ebola fact sheet (2-21 d incubation); Legrand et al. (2007) 10 d mean
+ebola,removal,0.1667 /day,LITERATURE,"LITERATURE: Legrand et al. (2007) Table 2, gamma_I = 0.167 d^-1; WHO 4-9 d symptomatic period. Post-intervention isolation is absorbed by the GRW on log beta(t) rather than by a time-varying delta."
+ebola,N,1000,LITERATURE,"STRUCTURAL: Kikwit General Hospital catchment. The absolute value is weakly identified; log_intercept_e absorbs the scale. Sensitivity over N in {500, 1000, 2000} is prespecified."
+ebola,nb_alpha_scale,HalfNormal(3.0),WEAK,"WEAK: HalfNormal(3.0), calibrated to pre-fit Var/Mean = 2.60 (static by design; see docs/PRIOR_CALIBRATION.md sec 4)"
+ebola,log_intercept,"Normal(0.0, 0.5)",WEAK,"WEAK: Normal(0, 0.5) on the log ascertainment ratio; tightened from v5 Normal(-1.8, 1.5) because the v6 trajectory is R0-dependent and a wide intercept re-absorbs the scale that identifies R0"
+ebola,sigma_rw_scale,HalfNormal(0.02),WEAK,WEAK: prior predictive calibrated (scripts/03); p95 of the implied beta(t) range stays under 3x. Gelman et al. (2020) BDA3 sec 6.4; Gabry et al. (2019) JRSSA 182:389
+measles,structure,seird_incidence,STRUCTURAL,"LITERATURE: Neal PJ & Roberts GO (2004) Biostatistics 5(2):249-261 model this outbreak as an SEIR process on the 188-child cohort. Meyer S, Held L & Hoehle M (2017) J Stat Softw 77(11) distribute the linelist. Observable is daily rash-onset incidence."
+measles,sigma,0.0909 /day,LITERATURE,"LITERATURE: measles incubation 10-14 days to rash onset (CDC Pink Book, ch. 13); Neal & Roberts (2004) use a latent period of this order for this dataset. 1/11 d^-1."
+measles,removal,0.1250 /day,LITERATURE,"LITERATURE: measles infectious from ~4 days before to ~4 days after rash onset (CDC Pink Book, ch. 13), i.e. ~8 days. 1/8 d^-1."
+measles,N,188,LITERATURE,"LITERATURE: complete village child cohort, 188 children (Pfeilsticker 1863; Oesterle 1992). Known exactly -- every child in Hagelloch is in the linelist, so N carries no assumption."
+measles,nb_alpha_scale,HalfNormal(3.0),WEAK,"WEAK: HalfNormal(3.0), the same weakly informative scale used for the Ebola incidence arm. Static by design -- see docs/PRIOR_CALIBRATION.md and PARAMETER_CHANGE_AUDIT.md sec 10."
+measles,log_intercept,"Normal(0.0, 0.0)",WEAK,STRUCTURAL: fixed at 0 (ascertainment = 1). Not estimated.
+measles,sigma_rw_scale,HalfNormal(0.05),WEAK,"WEAK: prior predictive calibrated (scripts/03). Only applies when --grw-measles is passed; the default is no GRW, subject to the scripts/02 decision rule."
+influenza,structure,seiqr_prevalence,STRUCTURAL,"LITERATURE: Avilov KK, Li Q, Lin L, Demirhan H, Stone L, He D (2024). The 1978 English boarding school influenza outbreak: where the classic SEIR model fails. J R Soc Interface 21(220):20240394 -- documents that confined-to-bed (B) must be modelled as a compartment distinct from infectious (I), and that SEIR models treating them as identical significantly overestimate the outbreak timespan."
+influenza,sigma,0.6667 /day,LITERATURE,LITERATURE: influenza A/H1N1 latent period 1-2 d; Ferguson NM et al. (2003) Science 300:1966
+influenza,removal,0.5000 /day,LITERATURE,"LITERATURE: boys 'remained infectious, i.e. capable of transmitting the disease, for about 2 days' before confinement (BMJ 1978;1(6112):587 and standard treatments of this dataset). delta = 0.5 d^-1."
+influenza,N,763,LITERATURE,"LITERATURE: 763 boys at risk (BMJ 1978;1(6112):587); known exactly, no assumption required"
+influenza,nb_alpha_scale,HalfNormal(200.0),DISCLOSURE,"DISCLOSURE: HalfNormal(200). Posterior/prior-mean ratio was 1.27 at HalfNormal(50) and 1.13 at HalfNormal(200) -- the likelihood is flat in this parameter (Gelman et al. (2020) BDA3 sec 13.3). Reported as unidentified, not as an estimate."
+influenza,log_intercept,"Normal(0.0, 0.0)",WEAK,STRUCTURAL: fixed at 0 (ascertainment = 1). Not estimated.
+influenza,sigma_rw_scale,HalfNormal(0.1),WEAK,"WEAK: prior predictive calibrated (scripts/03); median implied beta(t) range 1.32x, p95 2.73x, ceiling 3x. Gelman et al. (2020) BDA3 sec 6.4; Gabry et al. (2019) JRSSA 182:389. NOTE: the Influenza GRW is DISABLED by default -- 14 innovations against 14 observations is a saturated latent process. This scale applies only when --grw-influenza is passed for sensitivity."
+influenza,gamma_q,0.2000 /day,LITERATURE,LITERATURE: 'the average duration of illness was 5 days' (BMJ 1978;1(6112):587)
+influenza,t_seed,11.0 days,LITERATURE,"LITERATURE + PROFILED: 'The index case was infected by 1978-01-10, and had febrile illness from 1978-01-15 to 1978-01-18' (RECON outbreaks, influenza_england_1978_school). The series begins 1978-01-22, giving a documented 8-12 day unobserved lead-in. Within that documented window t_seed=11 minimises the Poisson deviance of the constant-beta fit (scripts/02). Sensitivity over {7, 9, 11, 13} is prespecified. NOTE: t_seed is fixed, not estimated -- with 14 observations, jointly identifying t_seed and R0 reintroduces the non-identifiability that v6 exists to remove."
+norovirus,structure,final_size,STRUCTURAL,LITERATURE: Kermack WO & McKendrick AG (1927) Proc Roy Soc A 115(772):700-721 final size relation; O'Neill PD & Marks PJ (2005) Stat Med 24(13):2011-2024 for this outbreak.
+norovirus,sigma,0.8333 /day,LITERATURE,LITERATURE: CDC norovirus 12-48 h incubation; Heijne JCM et al. (2012) Epidemics 4(4):164-171 mean 1.2 d
+norovirus,removal,0.5000 /day,LITERATURE,LITERATURE: CDC norovirus 1-3 d illness; Heijne et al. (2012) mean 2 d
+norovirus,N,492,LITERATURE,"LITERATURE: complete school roll, 492 students (O'Neill & Marks 2005)"
+norovirus,nb_alpha_scale,HalfNormal(1.0),STRUCTURAL,STRUCTURAL: unused -- Norovirus uses a Bernoulli likelihood
+norovirus,log_intercept,"Normal(0.0, 1.0)",WEAK,STRUCTURAL: unused -- attack rate enters directly through the K-M relation
+norovirus,sigma_rw_scale,HalfNormal(0.0),STRUCTURAL,"STRUCTURAL: no GRW -- the data are cross-sectional, with no time index for beta(t) to vary over"
+shared,hyper_log_R0_mu,"Normal(0.5, 1.0)",WEAK,WEAK: Gelman et al. (2020) BDA3 Ch. 5; Gelman (2006) Bayesian Analysis 1(3):515
+shared,hyper_log_R0_sd,HalfNormal(0.5),WEAK,WEAK: Gelman et al. (2020) BDA3 Ch. 5; Gelman (2006) Bayesian Analysis 1(3):515

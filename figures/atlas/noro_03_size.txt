@@ -1,0 +1,8 @@
+noro_03_size
+============
+
+WHAT IT SHOWS
+Class size against class attack rate.
+
+KEY TAKEAWAY
+No size effect, so the clustering reflects contact patterns rather than crowding.

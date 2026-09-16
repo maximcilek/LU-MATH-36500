@@ -1,0 +1,7 @@
+Ebola Kikwit 1995, six-panel pre-fit panel.
+A: onsets and deaths on the same timeline. Deaths trail onsets by about two weeks.
+B: the death rate looks wild for the first ten weeks purely because deaths lag cases; it only settles near the true 81% once enough time has passed. This is why the death rate is never used as a day-by-day model input.
+C: most days had a handful of cases and a few days had many. Lopsided like this, not bell-shaped, so a forgiving count is required.
+D: the grey line is the pattern in the raw counts, the green line is what remains after the model. The model absorbed the pattern - this is the headline diagnostic.
+E: on days when nobody was actively looking, essentially no cases were recorded. Those days were set aside rather than counted as genuine zeros.
+F: the fitted curve follows the real rise and fall.

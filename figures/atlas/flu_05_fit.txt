@@ -1,0 +1,8 @@
+flu_05_fit
+==========
+
+WHAT IT SHOWS
+Observed counts with the fitted trajectory.
+
+KEY TAKEAWAY
+The model cannot rise or fall sharply enough; the flatness is visible without any statistics.

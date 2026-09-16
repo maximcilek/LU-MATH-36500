@@ -1,0 +1,8 @@
+measles_09_fit
+==============
+
+WHAT IT SHOWS
+Observed counts with the fitted mechanistic trajectory overlaid.
+
+KEY TAKEAWAY
+The fitted spread score is 8.01; the curve tracks the observed rise and fall.

@@ -1,0 +1,8 @@
+x13_design
+==========
+
+WHAT IT SHOWS
+The role each arm plays in the study design.
+
+KEY TAKEAWAY
+Three arms carry the comparison, one tests the method, one is a hypothetical carried without inventing data.

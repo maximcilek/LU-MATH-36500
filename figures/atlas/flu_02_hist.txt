@@ -1,0 +1,8 @@
+flu_02_hist
+===========
+
+WHAT IT SHOWS
+Distribution of daily in-bed counts against Poisson and negative binomial.
+
+KEY TAKEAWAY
+The observed spread dwarfs Poisson; the huge variance comes from the epidemic arc itself, not day-to-day noise.

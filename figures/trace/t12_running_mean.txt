@@ -1,0 +1,3 @@
+t12_running_mean
+
+Running posterior mean as draws accumulate. Flat lines mean the estimate stopped moving long before the chain ended.

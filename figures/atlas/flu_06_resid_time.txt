@@ -1,0 +1,8 @@
+flu_06_resid_time
+=================
+
+WHAT IT SHOWS
+Residuals in time order.
+
+KEY TAKEAWAY
+A clear arc rather than scatter: the model is systematically low at the peak and high in the tails.

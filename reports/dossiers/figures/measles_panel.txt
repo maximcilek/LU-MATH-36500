@@ -1,0 +1,7 @@
+Measles Hagelloch 1861, six-panel pre-fit panel.
+A: first symptoms come a few days before the rash. The rash is what the physician recorded reliably for all 188 children, so that is what the model is compared against.
+B: the running total reaches 188 and stops - every child in the village caught it.
+C: three days in five had no new rash at all, then bursts. Clustered, not steady.
+D: the raw counts carry a pattern; after the model almost nothing is left. Clean.
+E: the village children split into three school groups; the mid-epidemic burst is the disease sweeping through classrooms.
+F: the model captures the timing but draws a smoother, lower hump than reality, because it assumes everyone mixes evenly and a village with schools does not.

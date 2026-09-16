@@ -1,0 +1,8 @@
+ebola_06_meanvar
+================
+
+WHAT IT SHOWS
+Local mean against local variance in rolling windows.
+
+KEY TAKEAWAY
+Variance grows faster than the mean, the signature of clustered spread rather than independent events.

@@ -1,0 +1,8 @@
+x14_nosynthetic
+===============
+
+WHAT IT SHOWS
+Where every number in the study comes from.
+
+KEY TAKEAWAY
+No synthetic, simulated or imputed observation enters any likelihood; the zombie contributes assumptions only.

@@ -1,0 +1,3 @@
+t16_corr
+
+Posterior correlation between parameters. Strong off-diagonal values mark ridges where two parameters trade off and must move together.

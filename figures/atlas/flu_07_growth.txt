@@ -1,0 +1,8 @@
+flu_07_growth
+=============
+
+WHAT IT SHOWS
+Rolling growth rate through the outbreak.
+
+KEY TAKEAWAY
+Growth is extreme early and collapses fast - a much sharper profile than the model can produce.

@@ -1,0 +1,3 @@
+t08_energy_marginal
+
+Marginal energy against the energy-transition distribution. Closely matching shapes is the visual form of a healthy BFMI.

@@ -1,0 +1,8 @@
+x03_severity
+============
+
+WHAT IT SHOWS
+Share who caught each disease against share who died of it.
+
+KEY TAKEAWAY
+Catchiness and deadliness are independent axes; a single number cannot rank these outbreaks by seriousness.

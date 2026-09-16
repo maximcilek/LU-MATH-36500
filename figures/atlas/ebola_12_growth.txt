@@ -1,0 +1,8 @@
+ebola_12_growth
+===============
+
+WHAT IT SHOWS
+Rolling week-on-week growth rate of the epidemic.
+
+KEY TAKEAWAY
+Growth starts positive, crosses zero at the peak, then turns negative - the classic single-wave signature.

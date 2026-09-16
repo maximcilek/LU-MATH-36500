@@ -1,0 +1,8 @@
+measles_16_class
+================
+
+WHAT IT SHOWS
+Children by school group.
+
+KEY TAKEAWAY
+Three distinct mixing groups; the mid-epidemic burst is the disease moving through classrooms.

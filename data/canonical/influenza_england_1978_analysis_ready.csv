@@ -1,0 +1,15 @@
+date,in_bed,convalescent,day,N,approx_new_cases,analysis_eligible,day_of_week,reported_total_ill
+1978-01-22,1,0,0,763,1,True,Sunday,512
+1978-01-23,3,0,1,763,2,True,Monday,512
+1978-01-24,7,0,2,763,4,True,Tuesday,512
+1978-01-25,25,0,3,763,18,True,Wednesday,512
+1978-01-26,72,0,4,763,47,True,Thursday,512
+1978-01-27,222,0,5,763,150,True,Friday,512
+1978-01-28,282,9,6,763,60,True,Saturday,512
+1978-01-29,256,17,7,763,0,True,Sunday,512
+1978-01-30,233,60,8,763,0,True,Monday,512
+1978-01-31,189,94,9,763,0,True,Tuesday,512
+1978-02-01,123,125,10,763,0,True,Wednesday,512
+1978-02-02,70,125,11,763,0,True,Thursday,512
+1978-02-03,25,85,12,763,0,True,Friday,512
+1978-02-04,11,47,13,763,0,True,Saturday,512

@@ -1,0 +1,8 @@
+measles_18_household
+====================
+
+WHAT IT SHOWS
+Number of infected children per household.
+
+KEY TAKEAWAY
+Several households contributed multiple cases, which is why the real curve is spikier than an even-mixing model draws.

@@ -1,0 +1,8 @@
+x02_curves_normalised
+=====================
+
+WHAT IT SHOWS
+The same curves rescaled so each outbreak spans 0 to 1.
+
+KEY TAKEAWAY
+On its own timescale every outbreak has the same single-hump shape, which is what makes one common model defensible.

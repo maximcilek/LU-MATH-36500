@@ -1,0 +1,8 @@
+noro_12_power
+=============
+
+WHAT IT SHOWS
+Width of the estimate achievable at different sample sizes.
+
+KEY TAKEAWAY
+492 individual records is why this is the most precise arm; a daily tally of the same outbreak would be far vaguer.

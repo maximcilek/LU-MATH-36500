@@ -1,0 +1,8 @@
+ebola_17_eligible
+=================
+
+WHAT IT SHOWS
+Which calendar days entered the likelihood.
+
+KEY TAKEAWAY
+139 of 192 days are usable; the excluded 53 are retained in the file so the decision stays auditable.

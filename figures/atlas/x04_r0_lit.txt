@@ -1,0 +1,8 @@
+x04_r0_lit
+==========
+
+WHAT IT SHOWS
+Fitted spread scores against published ranges.
+
+KEY TAKEAWAY
+Three of four land in or near their published band; influenza has no single band to land in.

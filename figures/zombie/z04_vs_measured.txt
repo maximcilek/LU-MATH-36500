@@ -1,0 +1,3 @@
+z04_vs_measured
+
+Both routes against the three measured arms. Route B brackets them, as it must — it is the distribution they were drawn from.

@@ -1,0 +1,8 @@
+ebola_15_cfr
+============
+
+WHAT IT SHOWS
+Cumulative death rate recomputed week by week.
+
+KEY TAKEAWAY
+Unstable for ten weeks purely because deaths trail cases; day-level death rate is therefore never a model input.

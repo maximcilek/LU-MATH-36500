@@ -1,0 +1,3 @@
+t09_accept
+
+Acceptance probability per draw against the target of 0.95. Clustering at the target means the step size was tuned correctly.

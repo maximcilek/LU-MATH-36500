@@ -1,0 +1,8 @@
+x08_obs_types
+=============
+
+WHAT IT SHOWS
+What quantity each outbreak actually recorded.
+
+KEY TAKEAWAY
+Three different observation types share one framework: getting this mapping wrong was the single largest error corrected in this project.

@@ -1,0 +1,8 @@
+x09_hierarchy
+=============
+
+WHAT IT SHOWS
+How the four arms connect through the shared prior.
+
+KEY TAKEAWAY
+Three measured outbreaks inform a common prior; influenza is fitted but flagged, and the zombie draws from that prior without contributing data.

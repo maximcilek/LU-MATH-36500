@@ -1,0 +1,8 @@
+noro_04_binom
+=============
+
+WHAT IT SHOWS
+Observed class attack rates against the range expected by chance alone.
+
+KEY TAKEAWAY
+Several classes fall outside the chance band, which is formal evidence that classroom must enter the model.

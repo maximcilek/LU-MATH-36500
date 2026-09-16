@@ -1,0 +1,8 @@
+ebola_18_onset_death
+====================
+
+WHAT IT SHOWS
+Onsets and deaths on a shared timeline.
+
+KEY TAKEAWAY
+Deaths mirror onsets about two weeks later, which is the lag that makes early death rates meaningless.

@@ -1,0 +1,8 @@
+ebola_10_resid_fitted
+=====================
+
+WHAT IT SHOWS
+Standardised residuals against fitted values.
+
+KEY TAKEAWAY
+No funnel or curve means the chosen variance structure is appropriate across the whole range.

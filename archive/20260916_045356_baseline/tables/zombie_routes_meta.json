@@ -1,0 +1,16 @@
+{
+  "route_a": {
+    "label": "assumption-driven (prior predictive)",
+    "claim": "conditional only: IF a pathogen had these properties, THEN its outbreak would look like this",
+    "learns_from_data": false,
+    "median": 3.043324323442489
+  },
+  "route_b": {
+    "label": "pooling-driven (posterior predictive for a new arm)",
+    "claim": "GIVEN the measured human outbreaks, a fourth unmeasured one would plausibly fall in this range",
+    "learns_from_data": true,
+    "caveat": "this describes the population of human pathogens the measured arms are drawn from, NOT this specific hypothetical pathogen",
+    "n_draws": 8000,
+    "median": 2.551076597649294
+  }
+}

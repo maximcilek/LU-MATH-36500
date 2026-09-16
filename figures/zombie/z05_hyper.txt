@@ -1,0 +1,3 @@
+z05_hyper
+
+The shared prior the measured arms produced. Route B draws from exactly this, which is why it is data-informed.

@@ -1,0 +1,44 @@
+{
+  "description": "Prior distribution parameters for the zombie SEZR model. Used in prior-predictive inference ONLY \u2014 no likelihood update because no real zombie disease data exists. Source: original Math 36500 zombie SEZR simulation parameters (v2).",
+  "model": "SEZR (Susceptible-Exposed-Zombie-Removed)",
+  "source": "Math 36500 assignment; synthetic simulation, not real data",
+  "data_type": "PRIOR ONLY \u2014 no empirical zombie data",
+  "parameters": {
+    "beta": {
+      "prior_mean": 0.55,
+      "prior_sd": 0.1,
+      "distribution": "LogNormal(log(0.55), 0.10)",
+      "source": "SEZR simulation config v2",
+      "units": "day^-1"
+    },
+    "sigma": {
+      "prior_mean": 0.2857,
+      "prior_sd": 0.05,
+      "distribution": "LogNormal(log(0.2857), 0.05)",
+      "source": "SEZR: 1/3.5 day incubation",
+      "units": "day^-1"
+    },
+    "gamma": {
+      "prior_mean": 0.18,
+      "prior_sd": 0.04,
+      "distribution": "LogNormal(log(0.18), 0.04)",
+      "source": "SEZR simulation config v2",
+      "units": "day^-1"
+    },
+    "mu": {
+      "prior_mean": 0.1,
+      "prior_sd": 0.05,
+      "distribution": "Beta(2, 18)",
+      "source": "SEZR: low mortality (primarily zombification, not death)",
+      "units": "dimensionless [0,1]"
+    }
+  },
+  "R0_implied": {
+    "formula": "beta / gamma",
+    "value_at_prior_mean": 3.056,
+    "note": "R0 = 3.06 at prior means; prior predictive will show distribution"
+  },
+  "N_prior_predictive_samples": 1000,
+  "T_end_days": 35,
+  "N_population": 1500
+}

@@ -1,0 +1,8 @@
+x07_evidence
+============
+
+WHAT IT SHOWS
+Number of independent observations behind each outbreak.
+
+KEY TAKEAWAY
+A 35-fold spread in evidence between influenza and norovirus; interval widths will differ accordingly and that is honest, not a defect.

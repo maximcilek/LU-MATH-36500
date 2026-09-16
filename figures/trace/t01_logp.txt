@@ -1,0 +1,3 @@
+t01_logp
+
+Log-posterior per draw — the MCMC equivalent of a training-loss curve. All chains overlap at the same level with no drift: none is stuck in a worse mode.

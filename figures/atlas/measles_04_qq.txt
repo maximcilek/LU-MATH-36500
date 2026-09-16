@@ -1,0 +1,8 @@
+measles_04_qq
+=============
+
+WHAT IT SHOWS
+Quantile-quantile plot of observed counts against a Poisson reference.
+
+KEY TAKEAWAY
+Points curving above the line in the upper tail means extreme days are more common than Poisson predicts.

@@ -1,0 +1,8 @@
+ebola_14_sensitivity
+====================
+
+WHAT IT SHOWS
+Fitted spread score as the assumed infectious period is varied.
+
+KEY TAKEAWAY
+The estimate moves with the assumed biology, so the assumed values are reported alongside the result rather than hidden.

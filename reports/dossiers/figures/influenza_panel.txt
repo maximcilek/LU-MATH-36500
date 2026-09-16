@@ -1,0 +1,7 @@
+Influenza English boarding school 1978, six-panel pre-fit panel.
+A: boys in bed, and boys recovering behind them. The whole episode lasts a fortnight.
+B: at the peak more than a third of the entire school was in bed simultaneously.
+C: the records start after the outbreak had already begun. How many days it had been running is not recorded, and the contagiousness estimate changes a lot depending on what is assumed. The green band is the range the source publication supports.
+D: unlike Ebola and measles, a real pattern REMAINS after the model. Red, not green.
+E: the two independent ways of judging contagiousness give different answers and cannot both be satisfied. This is the core problem with this dataset.
+F: the fitted curve is visibly too flat - it cannot rise or fall as sharply as reality.

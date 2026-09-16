@@ -1,0 +1,8 @@
+flu_19_evidence
+===============
+
+WHAT IT SHOWS
+Observation count for each outbreak on a log scale.
+
+KEY TAKEAWAY
+Fourteen daily tallies against 492 individual children: the thinnest evidence base in the study.

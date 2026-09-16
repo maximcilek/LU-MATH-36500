@@ -1,0 +1,3 @@
+t17_rank
+
+Rank-uniformity test per parameter (Vehtari et al. 2021). Passing means the chains agree about where the probability mass sits — a stricter check than R-hat alone.

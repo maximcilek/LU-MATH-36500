@@ -1,0 +1,8 @@
+x05_lumpiness
+=============
+
+WHAT IT SHOWS
+Variance-to-mean ratio for the three count outbreaks.
+
+KEY TAKEAWAY
+All far above one, so a forgiving count model is used throughout rather than chosen per outbreak.

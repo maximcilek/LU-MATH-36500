@@ -1,0 +1,7 @@
+Norovirus Derbyshire 2001, six-panel pre-fit panel.
+A: one classroom had two thirds of its children ill and another had none. Close-contact spread looks like clusters, not an even sprinkling.
+B: far more children were absent than were actually recorded as ill. Counting absence as illness would have more than doubled the outbreak.
+C: large classes were not worse hit, so the clustering is about who sat near whom.
+D: most children were ill for only a couple of days - a mild, short illness.
+E: vomiting was recorded for very few children, too few to use, so it is left out.
+F: for a one-off outbreak there is a fixed relationship between contagiousness and the share who eventually catch it. The estimate is read off that curve.

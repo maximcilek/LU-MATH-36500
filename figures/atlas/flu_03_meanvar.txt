@@ -1,0 +1,8 @@
+flu_03_meanvar
+==============
+
+WHAT IT SHOWS
+Variance against mean in rolling windows.
+
+KEY TAKEAWAY
+Variance tracks the square of the mean, confirming the spread is driven by the epidemic shape.

@@ -1,0 +1,8 @@
+flu_09_collin
+=============
+
+WHAT IT SHOWS
+Correlation among candidate day-level quantities.
+
+KEY TAKEAWAY
+In-bed and recovering counts are strongly related but lagged; entering both would double-count the same boys.

@@ -1,0 +1,8 @@
+flu_16_conflict
+===============
+
+WHAT IT SHOWS
+Final-size curve with both candidate spread scores marked.
+
+KEY TAKEAWAY
+Total infected and epidemic speed imply different answers; no single value satisfies both.

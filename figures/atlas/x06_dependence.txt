@@ -1,0 +1,8 @@
+x06_dependence
+==============
+
+WHAT IT SHOWS
+Day-to-day dependence before and after the mechanistic model.
+
+KEY TAKEAWAY
+Ebola and measles go from strong dependence to none. Influenza does not. That single contrast drove every modelling decision.

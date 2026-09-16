@@ -1,0 +1,3 @@
+t03_stepsize
+
+Tuned step size per chain. Flat across sampling means dual averaging settled during warm-up; chains landing at similar values means they found comparable geometry.

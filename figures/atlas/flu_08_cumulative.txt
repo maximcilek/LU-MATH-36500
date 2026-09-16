@@ -1,0 +1,8 @@
+flu_08_cumulative
+=================
+
+WHAT IT SHOWS
+Cumulative recovering boys as a proxy for total infected.
+
+KEY TAKEAWAY
+The total flattens near two thirds of the school, which is the figure that conflicts with the speed estimate.

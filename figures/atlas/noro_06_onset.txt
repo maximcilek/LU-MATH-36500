@@ -1,0 +1,8 @@
+noro_06_onset
+=============
+
+WHAT IT SHOWS
+Date on which each child first fell ill.
+
+KEY TAKEAWAY
+Cases cluster into a short burst, consistent with a common exposure rather than a long chain.

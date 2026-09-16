@@ -1,0 +1,3 @@
+t07_bfmi
+
+Energy-based fraction of missing information per chain. Above 0.3 means the sampler is not being defeated by heavy tails (Betancourt 2018).

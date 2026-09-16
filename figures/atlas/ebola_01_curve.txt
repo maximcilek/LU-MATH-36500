@@ -1,0 +1,8 @@
+ebola_01_curve
+==============
+
+WHAT IT SHOWS
+Daily new cases plotted against day of outbreak.
+
+KEY TAKEAWAY
+One rise and one fall: a single wave that exhausted its susceptibles and stopped.

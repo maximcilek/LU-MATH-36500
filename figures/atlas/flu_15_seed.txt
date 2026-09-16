@@ -1,0 +1,8 @@
+flu_15_seed
+===========
+
+WHAT IT SHOWS
+Fitted spread score against the assumed pre-observation period.
+
+KEY TAKEAWAY
+The answer swings with an assumption the records do not pin down, which is the first of three unresolved limits.

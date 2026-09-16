@@ -1,0 +1,3 @@
+t15_mcse_pct
+
+Monte Carlo error as a share of each parameter's own spread. Below 5% means sampling noise is negligible next to genuine uncertainty.

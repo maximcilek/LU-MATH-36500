@@ -1,0 +1,3 @@
+t13_rhat
+
+R-hat per parameter against the 1.01 target. Every bar below the line means all chains agree on the same distribution.

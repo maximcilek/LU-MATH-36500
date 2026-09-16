@@ -1,0 +1,8 @@
+x10_zombie_vs_real
+==================
+
+WHAT IT SHOWS
+Assumed zombie spread score against the three measured outbreaks.
+
+KEY TAKEAWAY
+The assumed pathogen sits above every measured one. This is a restatement of the assumption, not a measurement.

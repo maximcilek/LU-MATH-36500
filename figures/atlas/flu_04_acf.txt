@@ -1,0 +1,8 @@
+flu_04_acf
+==========
+
+WHAT IT SHOWS
+Serial dependence before and after the model.
+
+KEY TAKEAWAY
+Unlike the other outbreaks, strong dependence survives the model - the defining problem with this dataset.

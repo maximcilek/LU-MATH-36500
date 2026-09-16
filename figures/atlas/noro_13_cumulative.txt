@@ -1,0 +1,8 @@
+noro_13_cumulative
+==================
+
+WHAT IT SHOWS
+Cumulative count of ill children through the outbreak.
+
+KEY TAKEAWAY
+The curve flattens early: the outbreak stopped well short of the whole school, unlike measles.

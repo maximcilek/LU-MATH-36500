@@ -1,0 +1,8 @@
+measles_03_hist
+===============
+
+WHAT IT SHOWS
+Histogram of daily counts with Poisson and negative-binomial fits.
+
+KEY TAKEAWAY
+The observed spread is wider than Poisson allows, so a negative binomial is required.

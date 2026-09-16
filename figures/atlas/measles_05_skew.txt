@@ -1,0 +1,8 @@
+measles_05_skew
+===============
+
+WHAT IT SHOWS
+Distribution on the raw scale and after a log transform.
+
+KEY TAKEAWAY
+Skewness 3.31 on the raw scale; the log scale is far more symmetric, confirming multiplicative rather than additive variation.

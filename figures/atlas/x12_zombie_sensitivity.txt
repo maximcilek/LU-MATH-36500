@@ -1,0 +1,8 @@
+x12_zombie_sensitivity
+======================
+
+WHAT IT SHOWS
+Which assumption most controls the zombie result.
+
+KEY TAKEAWAY
+Transmission rate drives almost all of it; incubation and death rate barely matter. If data ever arrived, measure transmission first.

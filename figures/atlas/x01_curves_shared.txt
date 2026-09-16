@@ -1,0 +1,8 @@
+x01_curves_shared
+=================
+
+WHAT IT SHOWS
+All three time-series outbreaks on a shared day axis.
+
+KEY TAKEAWAY
+Influenza is over before measles has properly started. Any comparison must respect that the clocks run at different speeds.

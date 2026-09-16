@@ -1,0 +1,8 @@
+measles_13_collin
+=================
+
+WHAT IT SHOWS
+Correlation among candidate day-level predictors.
+
+KEY TAKEAWAY
+Cumulative totals correlate strongly with each other, so only one time-derived quantity may enter the model.

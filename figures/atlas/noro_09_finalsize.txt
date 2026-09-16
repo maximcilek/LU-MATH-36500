@@ -1,0 +1,8 @@
+noro_09_finalsize
+=================
+
+WHAT IT SHOWS
+Final-size curve with the observed attack rate marked.
+
+KEY TAKEAWAY
+Reading 15% off the curve gives a spread score of 1.08, at the low end of institutional norovirus estimates.

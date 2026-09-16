@@ -1,0 +1,12 @@
+{
+  "ceiling": 3.0,
+  "selected": {
+    "Ebola": 0.02,
+    "Influenza": 0.1
+  },
+  "configured": {
+    "Ebola": 0.02,
+    "Influenza": 0.1
+  },
+  "method": "prior predictive checking (Gelman et al. 2020 BDA3 sec 6.4; Gabry et al. 2019 JRSSA 182:389)"
+}

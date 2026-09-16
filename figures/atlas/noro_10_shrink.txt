@@ -1,0 +1,8 @@
+noro_10_shrink
+==============
+
+WHAT IT SHOWS
+Raw class attack rates against the shrunk values a random-effect model produces.
+
+KEY TAKEAWAY
+Extreme classrooms are pulled toward the school average rather than deleted, so no class dominates the result.

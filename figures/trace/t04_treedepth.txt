@@ -1,0 +1,3 @@
+t04_treedepth
+
+Leapfrog tree depth per draw. 1.0% of draws hit the ceiling of 12. Saturation is not an error but means the trajectory never turned around inside the budget, which costs efficiency.

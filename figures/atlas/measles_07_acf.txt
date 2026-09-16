@@ -1,0 +1,8 @@
+measles_07_acf
+==============
+
+WHAT IT SHOWS
+Correlation between counts separated by 1 to 14 days, before and after the model.
+
+KEY TAKEAWAY
+Raw dependence +0.74 falls to -0.00 once the mechanism is fitted - fully absorbed.

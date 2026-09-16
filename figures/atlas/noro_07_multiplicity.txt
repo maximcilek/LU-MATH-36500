@@ -1,0 +1,8 @@
+noro_07_multiplicity
+====================
+
+WHAT IT SHOWS
+How many of fifteen classroom tests would look significant by chance.
+
+KEY TAKEAWAY
+Testing fifteen classrooms separately would produce false positives; one pooled model with class effects avoids that.

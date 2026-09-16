@@ -1,0 +1,3 @@
+z07_ar
+
+Attack rate implied by each route. Route A insists nearly everyone is infected; Route B admits a wide range including mild outcomes.

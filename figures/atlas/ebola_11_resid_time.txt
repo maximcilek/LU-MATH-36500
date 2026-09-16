@@ -1,0 +1,8 @@
+ebola_11_resid_time
+===================
+
+WHAT IT SHOWS
+Residuals plotted in time order.
+
+KEY TAKEAWAY
+Scatter around zero with no drift means the model is not systematically early or late.

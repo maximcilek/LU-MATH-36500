@@ -1,0 +1,3 @@
+t10_ess_evo
+
+Effective sample size against chain length. A straight line through the origin means each extra draw buys the same information; flattening would mean longer runs no longer help.

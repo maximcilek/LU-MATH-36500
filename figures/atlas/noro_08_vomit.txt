@@ -1,0 +1,8 @@
+noro_08_vomit
+=============
+
+WHAT IT SHOWS
+How often vomiting was recorded alongside illness.
+
+KEY TAKEAWAY
+Only 5 children have both recorded - far too few to model, so vomiting is excluded.

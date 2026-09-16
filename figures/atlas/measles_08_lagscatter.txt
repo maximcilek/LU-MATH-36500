@@ -1,0 +1,8 @@
+measles_08_lagscatter
+=====================
+
+WHAT IT SHOWS
+Each day's count plotted against the previous day's count.
+
+KEY TAKEAWAY
+A tight diagonal cloud means today resembles yesterday; the model must explain that, not ignore it.

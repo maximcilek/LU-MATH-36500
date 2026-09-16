@@ -1,0 +1,3 @@
+z02_routeB
+
+Route B: a new arm predicted from the fitted hierarchy. Wide because three measured outbreaks genuinely disagree about how transmissible pathogens are.

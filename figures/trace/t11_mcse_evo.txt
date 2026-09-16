@@ -1,0 +1,3 @@
+t11_mcse_evo
+
+Monte Carlo error against chain length. Falling as one over the root of the draw count is the expected rate; departures indicate poor mixing.

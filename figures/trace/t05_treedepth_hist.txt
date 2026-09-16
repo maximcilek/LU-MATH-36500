@@ -1,0 +1,3 @@
+t05_treedepth_hist
+
+How often each tree depth was reached. Mass well below the ceiling means most trajectories terminated naturally.

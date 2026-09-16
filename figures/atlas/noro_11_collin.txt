@@ -1,0 +1,8 @@
+noro_11_collin
+==============
+
+WHAT IT SHOWS
+Correlation among candidate child-level variables.
+
+KEY TAKEAWAY
+Absence correlates with illness but is not the same thing; entering both would double-count the outcome.

@@ -1,0 +1,8 @@
+x15_scorecard
+=============
+
+WHAT IT SHOWS
+All six quality checks for all four outbreaks on one radar. Further from the centre is better.
+
+KEY TAKEAWAY
+Norovirus is nearly a full hexagon; influenza collapses inward on four of six spokes.

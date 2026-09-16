@@ -1,0 +1,7 @@
+parameter,present,max_abs_grad,status
+bhmm::e_log_R0_raw,True,25.349741931094517,PASS
+bhmm::mea_log_R0_raw,True,222.378914771848,PASS
+bhmm::flu_log_R0_raw,True,4019.306338987738,PASS
+bhmm::n_log_R0_raw,True,555.2657807042741,PASS
+bhmm::class_re_sd_log__,True,15.0,PASS
+bhmm::log_intercept_e,True,95.44740095430039,PASS

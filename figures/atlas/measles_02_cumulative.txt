@@ -1,0 +1,8 @@
+measles_02_cumulative
+=====================
+
+WHAT IT SHOWS
+Running total of cases as the outbreak progressed.
+
+KEY TAKEAWAY
+The S-shape confirms saturation: growth slows because susceptibles run out, not by chance.

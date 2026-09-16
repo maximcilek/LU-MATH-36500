@@ -1,0 +1,8 @@
+ebola_16_reporting
+==================
+
+WHAT IT SHOWS
+Daily counts split by whether active case-finding was running.
+
+KEY TAKEAWAY
+Near-total separation (p=5e-13): non-reporting days carry no information and are excluded rather than counted as zeros.

@@ -1,0 +1,8 @@
+measles_17_prodrome
+===================
+
+WHAT IT SHOWS
+Gap between first symptoms and rash for each child.
+
+KEY TAKEAWAY
+A consistent four-day gap justifies treating rash onset as a clean, uniformly shifted marker of infection.

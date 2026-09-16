@@ -1,0 +1,8 @@
+measles_15_age
+==============
+
+WHAT IT SHOWS
+Age distribution of infected children.
+
+KEY TAKEAWAY
+Every age from infant to fifteen was hit, confirming no pre-existing immunity anywhere in the cohort.
